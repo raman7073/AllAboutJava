@@ -1,4 +1,4 @@
-package com.raman.oops.obcl;
+package com.raman.oops.obncl;
 
 public class PrivateConstructor {
 

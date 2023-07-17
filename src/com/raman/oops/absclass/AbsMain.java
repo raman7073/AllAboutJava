@@ -4,5 +4,6 @@ public class AbsMain {
     public static void main(String[] args) {
         AbsTest absTest = new AbsTest();
         absTest.math();
+        Abstract []ab = new Abstract[100];
     }
 }

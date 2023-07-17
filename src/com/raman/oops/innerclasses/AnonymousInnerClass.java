@@ -1,5 +1,8 @@
 package com.raman.oops.innerclasses;
 
+/**
+ * Learn about accessing of local and instance variable.
+ */
 public class AnonymousInnerClass {
     public void show() {
         Abstract ab = new Abstract() {
@@ -9,7 +12,7 @@ public class AnonymousInnerClass {
             }
         };
         ab.display();
-        // defining anonymous class which is implementing interface and it has reference of
+        // defining anonymous class which is implementing interface, and it has reference of
         // interface
         Interface in = new Interface() {
             @Override
