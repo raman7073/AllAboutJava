@@ -14,7 +14,7 @@ public class HondaCity {
                 return BASE_PRICE + BASE_PRICE * 0.1;
             case "mumbai":
                 return BASE_PRICE + BASE_PRICE * 0.09;
-            default:
+            default: 
                 return BASE_PRICE + BASE_PRICE * 0.5;
         }
     }
