@@ -28,3 +28,6 @@ public class Client {
 
     }
 }
+/*
+      strategy vs visitor
+ */
