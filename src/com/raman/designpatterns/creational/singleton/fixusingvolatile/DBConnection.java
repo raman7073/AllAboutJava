@@ -10,7 +10,7 @@ public class DBConnection {
 
     public static DBConnection getInstance() {
         if (conObject == null) {
-            synchronized (com.raman.designpatterns.creational.singleton.doublelocking.DBConnection.class) {
+            synchronized (DBConnection.class) {
                 if (conObject == null) {
                     conObject = new DBConnection(10);
                 }
